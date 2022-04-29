@@ -1,0 +1,117 @@
+/* HOJA DE ESTILOS CSS */
+
+/* VALORES GENERALES */
+*{  margin: 0px;
+    padding: 0px;
+    text-decoration: none;     
+    color: inherit;}
+
+header {background-color: yellow;
+        z-index: 50; 
+        align-items: center; 
+        /* position: fixed; */ 
+        width: 100%; 
+        top: 0; 
+        display: flex;
+        justify-content: end;}
+
+
+.titulo_web {
+    padding-top: 5px;
+    color: black;
+    /* position:fixed; */
+    /* left:120px; */
+    text-align: right;
+    font-weight: bold;
+    font-size: 300%;}
+
+#navegador{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    top: 55px ;
+    right: 80px;
+    text-align: right;
+    font-weight: normal;
+    font-size: 150%;
+    z-index: 50;}
+
+.links_internos {list-style-type: none; display: inline;}
+
+.boton_navegación 
+          {font-style:normal; font-weight: bold; color: black;
+           display: inline;
+           padding-left: 20px;
+           padding-right: 20px;
+           border: 3px solid rgb(0, 0, 0)}
+
+body {background-color: rgba(0, 0, 0, 0.925);
+    font-family: Arial, Helvetica, sans-serif; color: yellow;}
+
+.titulo_seccion {font-weight: bold; font-size: 30px; text-align:center; margin-bottom: 70px; margin-top: 200px; list-style-type: none;}
+                   
+#footer { margin-top: 60px;
+          margin-bottom: 80px;
+          text-align: center;
+          border-top: yellow solid;
+          padding-top: 20px;}
+
+.footer_element {list-style-type: none; padding: 5px}
+
+/* INDEX */
+
+section #Texto_informativo {display: flex; justify-content: center;}
+ 
+#logo_principal {width: 700px; height: 45%; margin-top: 100px;}
+
+#Texto_informativo 
+{position: absolute; top: 150px; right: 50px; left: 800px; text-align: justify}
+
+#titulo_texto {text-align: center;
+               margin-bottom: 40px;}
+
+.index_fotos {display: flex; justify-content: center; margin-left: 5%; margin-right: 5%; margin-top: 5%;}
+
+#index_foto1 {width: 23%; padding: 35px;}
+#index_foto2 {width: 23%; padding: 35px;}
+#index_foto3 {width: 23%; padding: 35px;}
+
+/* GRID */
+
+
+/* DISCOGRAFÍA */
+
+#tabla_discografia {position: relative; left: 680px;}
+
+.table_data{text-align: center;}
+
+/* GALERÍA */
+
+#galeria
+
+.imagen_galeria , .shop_item {margin-top: 50px;}
+
+#iframes { margin: 20px;}
+
+.iframe_item {list-style-type: none;}
+
+.titulo_galeria, .imagen_galeria {list-style-type: none;}
+
+/* TIENDA */
+
+.shop_item {margin-top: 30px;}
+
+#link_tienda {font-style: italic; font-weight: bolder; text-decoration: underline;}
+
+#comprar_solicitud {margin-top: 25px;}
+
+
+/* CONTACTENOS */
+
+#intro_contactenos {margin-top: 250px; font-size: larger; font-weight: bold; margin-left: 20px; margin-right: 20px;}
+
+#formulario_contacto {margin-top: 70px; margin-right: 50px; margin-left: 50px; border: solid 4px yellow; padding: 5px;}
+
+#nombre, #mail, #telefono, #country{font-style:normal; color: black;}
+
+.boton_formulario {font-style: italic; color: black; width: 95px;}

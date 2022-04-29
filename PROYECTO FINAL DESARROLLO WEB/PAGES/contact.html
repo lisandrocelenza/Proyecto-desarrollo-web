@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Cerati Fan Page</title>
+    <link rel="shortcut icon" href="../media/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo_web">Gustavo Cerati Fan Page</h1>
+
+        <nav id="navegador">
+            <ul class="links_internos">
+            <li class="boton_navegación"><a href="../index.html">INICIO</a></li>
+            <li class="boton_navegación"><a href="disco.html">DISCOGRAFÍA</a></li>
+            <li class="boton_navegación"><a href="galery.html">GALERÍA</a></li>
+            <li class="boton_navegación"><a href="shop.html">TIENDA</a></li>
+            <li class="boton_navegación"><a href="contact.html">CONTÁCTENOS</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+<main>
+    <p id="intro_contactenos">Como parte de una comunidad, buscamos entrelazarnos, para información sobre los productos de la tienda, sugerencias, mensajes a difundir, por favor ingrese su solicitud:</p>
+    
+    <form action="/database/" method="get" id="formulario_contacto" >
+        
+            <legend><h1>CONTÁCTENOS</h1></legend>
+
+            <div><label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" required></div>
+
+            <label for="mail">Correo electrónico</label>
+            <input type="mail" id="mail"required>
+
+            <div><label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" required></div>
+
+            <div><label for="select">País de origen</label>
+
+                <select name="Pais" id="country">
+                    <option value=""hidden selected>Seleccione país de origen</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Otro">Otro</option></div>
+                </select>    
+            
+            <div><label for="fan">Soy fan de gustavo</label><input type="checkbox"></div>
+
+            <div><label for="no fan">No soy fan de Gustavo</label><input type="checkbox"></div>
+
+            <div><label for="fotos de fans">Estamos recopilando imágenes inéditas de gustavo solo o con fans, podes realizar tu aporte:</label><input type="file"></div>
+
+            <label for="area de texto"><textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje" required></textarea></label>
+                     
+            
+            <button type="submit" class="boton_formulario">Enviar</button>
+            <button type="reset" class="boton_formulario">Limpiar</button>
+
+    </form>
+</main>
+<footer id="footer">
+    <ul>
+
+        <li class="footer_element"><a href="https://www.instagram.com/cerati/?hl=es" target="_blank"><img src="/" alt="instagram"></a></li>
+
+        <li class="footer_element"><a href="https://www.youtube.com/channel/UCZuU_8S5VItTh-InZ0CV-rA" target="_blank"><img src="/" alt="youtube"></a></li>
+
+        <li class="footer_element"><a href="mailto:lisandrocelenza@gmail.com">lisandrocelenza@gmail.com</a> </li>
+
+    </ul>
+    <div><h6>Este sitio web fue confeccionado sin fines de lucro</h6></div>
+</footer>
+</body>
+</html>
